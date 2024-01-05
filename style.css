@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: rgb(213,213,213);
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(224,224,224,1) 31%, rgba(224,224,224,1) 72%, rgba(213,213,213,1) 100%);
+}
+
+
+#taskInput {
+    width: 200px;
+    margin-right: 10px;
+}
+
+#addBtn, #clearBtn {
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    color: red;
+    margin-left: auto;
+}
+
+#addBtn.bradius5, #clearBtn.bradius5 {
+    border-radius: 3px !important;
+}
+
+.mleft10{
+    margin-left: 10px;
+}
+
+.mbottom10{
+    bottom: 10px;
+}

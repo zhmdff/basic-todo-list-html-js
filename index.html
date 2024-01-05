@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Add Bootstrap CDN link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="display-4">To-Do List</h2>
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" id="taskInput" class="form-control" placeholder="Enter task">
+            <div class="input-group-append">
+                <button id="addBtn" class="btn btn-primary bradius5 mleft10 mbottom10" onclick="addTask()">Add Task</button>
+            </div>
+            <div class="input-group-append">
+                <button id="clearBtn" class="btn btn-danger bradius5 mleft10 mbottom10" onclick="clearTasks()">Clear Completed</button>
+            </div>
+        </div>
+
+        <ul id="taskList" class="list-group"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
